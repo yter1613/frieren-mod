@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "frierenmagic",
+  "version": "${version}",
+  "name": "Frieren Magic",
+  "description": "Magic from Frieren: Beyond Journey's End",
+  "authors": ["Admin"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.frieren.magic.FrierenMod"
+    ],
+    "client": [
+      "com.frieren.magic.FrierenModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "fabric-api": "*"
+  }
+}
